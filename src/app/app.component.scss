@@ -1,0 +1,11 @@
+.app-component-main{
+  display: grid;
+  grid-template-rows: 100px 1fr 30px;
+  height: 100vh;
+  padding: 12px;
+  box-sizing: border-box;
+
+  .__header{}
+  .__body{}
+  .__footer{ text-align: right;}
+}
