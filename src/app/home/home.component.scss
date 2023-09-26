@@ -1,0 +1,12 @@
+.home-page-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+
+  .__card{
+    padding: 12px;
+    .__button{
+      margin-top: 12px;
+    }
+  }
+}
