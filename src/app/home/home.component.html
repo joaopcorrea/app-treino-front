@@ -1,0 +1,11 @@
+<div class="home-page-container">
+
+    <mat-card class="__card" *ngFor="let servicos of LISTA_SERVICOS">
+      <mat-card-content>{{servicos.titulo}}</mat-card-content>
+      <button mat-raised-button color="accent" class="__button">
+        <mat-icon>favorite</mat-icon>
+        Acessar
+      </button>
+    </mat-card>
+
+</div>
